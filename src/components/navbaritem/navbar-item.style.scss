@@ -1,0 +1,31 @@
+.navbar-item {
+  margin-right: 2rem;
+  list-style: none;
+  color: white;
+}
+.navbar-link.active {
+  color: red;
+}
+.navbar-link {
+  color: grey;
+  text-decoration: none;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 600;
+
+  &:hover {
+    color: rgb(67, 67, 67);
+    &::after {
+      position: absolute;
+      content: "";
+      height: 1px;
+      width: 3rem;
+      background-color: green;
+      display: inline-block;
+      left: 0;
+      bottom: 0;
+      transition: all 4s;
+    }
+  }
+}

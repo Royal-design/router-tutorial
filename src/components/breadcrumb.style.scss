@@ -1,0 +1,19 @@
+.breadcrumbs {
+  max-width: 1200px;
+  margin: 20px auto;
+  font-size: 2rem;
+}
+.breadcrumbs > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+.breadcrumbs .crumbs:after {
+  content: ">";
+  margin-left: 10px;
+}
+.breadcrumbs .crumbs:last-child:after {
+  display: none;
+}
+.breadcrumbs .crumbs a {
+  color: #0b0280;
+}

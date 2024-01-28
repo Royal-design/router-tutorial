@@ -1,0 +1,27 @@
+form input,
+form label span,
+form textarea {
+  display: block;
+}
+form input,
+form textarea {
+  margin-bottom: 30px;
+  padding: 8px;
+  border: 1px solid green;
+  border-radius: 4px;
+
+  width: 300px;
+  color: green;
+}
+form label span {
+  margin-bottom: 10px;
+}
+
+button {
+  border: 0;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  background: green;
+  cursor: pointer;
+}

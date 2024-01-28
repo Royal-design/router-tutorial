@@ -1,0 +1,22 @@
+.help-layout {
+  padding: 2rem;
+  nav {
+    margin: 3rem 0;
+  }
+  a {
+    text-decoration: none;
+    margin-right: 1rem;
+    color: green;
+    border: 1px solid green;
+    padding: 1rem;
+    transition: all 0.4s;
+    &:hover {
+      border: 1px solid rgb(30, 244, 30);
+      color: blue;
+    }
+  }
+}
+.help-layout nav a.active {
+  color: red;
+  border: 1px solid red;
+}

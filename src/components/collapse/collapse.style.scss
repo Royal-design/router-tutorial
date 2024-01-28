@@ -1,0 +1,11 @@
+.close {
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .close {
+    display: block;
+    position: fixed;
+    right: 1rem;
+  }
+}
